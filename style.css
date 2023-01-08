@@ -1,0 +1,143 @@
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    text-transform: capitalize;
+}
+.slider-left{
+
+}
+.slider-left h6{
+    color: #7167ea;
+}
+.slider-left h2{
+    width: 333px;
+    padding: 10px 0px;
+}
+.slider-left p{
+    padding-right: 20px;
+    color: #ae97a1;
+    position: relative;
+    padding-top: 10px;
+}
+.slider-left p::after{
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    background-color: rgb(19, 192, 255);
+    width: 40px;
+    height: 2px;
+}
+.slider-right{}
+.slider-right img{  
+   border: 1px solid #ddd;
+   opacity: .5;
+   transition: all linear.4s;
+}
+.slider-right img:hover{
+    opacity: 1;
+    background-color: #b0b5b75d;
+}
+.max-widht{
+    border: none;
+    border-radius:5px !important;
+    position: relative;
+    
+}
+.max-widht img{ 
+    border-radius:5px;
+}
+
+.max-widht p{
+    color:#9891a3;
+}
+.header-card{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.header-card h6{
+    color: #7167ea;
+    padding: 10px 0px;
+}
+.header-card p{
+    color: #9891a3;
+    position: relative;
+    padding: 10px 0px;
+}
+.header-card p::after{
+    position: absolute;
+    content: "";
+    left: 229px;
+    top: 0px;
+    width: 50px;
+    height: 2px;
+    background-color: #7167ea;
+}
+.card-img img{
+    width: 40px;
+    border-radius: 50%;
+    
+}
+.card-img{
+    background-color: #3763eb;
+    width: 176px;
+    padding: 5px;
+    border-radius: 40px;
+    position: absolute;
+    left: 157px;
+    top: 148px;
+    
+}
+.card-img p{
+    color: #fff;
+    margin-left: 8px; 
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+/* footer */
+.footer-one img{
+    width: 80px;
+}
+.footer-one p{
+    color: #fff;
+    padding: 20px 20px 10px 0px;
+}
+.footer-one ul{
+    list-style: none;
+    display: flex;
+}
+.footer-one ul li{}
+.footer-one ul li a{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 30px;
+    color: #fff;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+.footer-2{
+    color: #fff;
+}
+.footer-2 h5{
+    padding: 15px 10px;
+   position: relative;
+}
+.footer-2 h5::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 21px;
+    width: 2px;
+    height: 17px;
+    background-color: rgb(0, 98, 185);
+}
+.footer-2 ul{
+    list-style: none;
+}
+.footer-2 ul li{}
+.border-b{
+    border-bottom: 1px solid rgba(221, 221, 221, 0.747);
+}
